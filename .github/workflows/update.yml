@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: JinnLynn/genpac
+          ref: v2.0.1
           path: genpac
       - uses: actions/checkout@v4
         with:
@@ -24,15 +25,9 @@ jobs:
       - uses: petronny/git-config-user@master
         with:
           path: .
-      - name: Setup genpac
-        run: |
+      - run: |
           cd genpac
-          # 检查文件是否存在并包含需要替换的内容
-          if grep -q 'from collections import Callable' . -r; then
-            sed 's/from collections import Callable/from collections.abc import Callable/g' -i $(grep 'from collections import Callable' . -rIl)
-          else
-            echo "No files found with the specified content. Skipping sed command."
-          fi
+          sed 's/from collections import Callable/from collections.abc import Callable/g' -i $(grep 'from collections import Callable' . -rIl)
           sudo python3 setup.py install
       - name: Update
         run: |
