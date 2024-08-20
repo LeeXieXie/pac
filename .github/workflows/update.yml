@@ -24,9 +24,15 @@ jobs:
       - uses: petronny/git-config-user@master
         with:
           path: .
-      - run: |
+      - name: Setup genpac
+        run: |
           cd genpac
-          sed 's/from collections import Callable/from collections.abc import Callable/g' -i $(grep 'from collections import Callable' . -rIl)
+          # 检查文件是否存在并包含需要替换的内容
+          if grep -q 'from collections import Callable' . -r; then
+            sed 's/from collections import Callable/from collections.abc import Callable/g' -i $(grep 'from collections import Callable' . -rIl)
+          else
+            echo "No files found with the specified content. Skipping sed command."
+          fi
           sudo python3 setup.py install
       - name: Update
         run: |
