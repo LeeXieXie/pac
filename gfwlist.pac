@@ -587,6 +587,7 @@ var rules = [
             "bet365.com",
             "betaclouds.net",
             "betfair.com",
+            "betterhash.net",
             "betternet.co",
             "bettervpn.com",
             "bettween.com",
