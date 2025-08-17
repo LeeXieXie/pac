@@ -3832,6 +3832,7 @@ var rules = [
             "perplexity.ai",
             "persecutionblog.com",
             "persiankitty.com",
+            "pewresearch.org",
             "phapluan.org",
             "phayul.com",
             "philborges.com",
