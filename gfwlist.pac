@@ -1659,6 +1659,7 @@ var rules = [
             "fdc89.jp",
             "feedburner.com",
             "feeder.co",
+            "feedly.com",
             "feedx.net",
             "feelssh.com",
             "feer.com",
