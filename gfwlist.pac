@@ -3304,6 +3304,7 @@ var rules = [
             "mog.com",
             "mohu.club",
             "mohu.rocks",
+            "moj.gov.tw",
             "mojim.com",
             "mol.gov.tw",
             "molihua.org",
