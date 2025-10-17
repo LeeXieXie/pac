@@ -752,7 +752,6 @@ var rules = [
             "btcbank.bank",
             "btctrade.im",
             "btdig.com",
-            "btdigg.org",
             "btguard.com",
             "btku.me",
             "btku.org",
