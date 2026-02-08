@@ -5499,6 +5499,7 @@ var rules = [
             "wikipedia.com",
             "wikipedia.org",
             "wikiquote.org",
+            "wikis.tw",
             "wikisource.org",
             "wikiunblocked.org",
             "wikiversity.org",
