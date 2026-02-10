@@ -3389,6 +3389,7 @@ var rules = [
             "privoxy.org",
             "procopytips.com",
             "project-syndicate.org",
+            "prompthero.com",
             "prosiben.de",
             "proton.me",
             "protonvpn.com",
