@@ -2179,6 +2179,7 @@ var rules = [
             "mangafox.me",
             "mangmang.run",
             "manta.com",
+            "manus.im",
             "manyvoices.news",
             "marc.info",
             "martau.com",
