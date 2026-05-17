@@ -4093,6 +4093,7 @@ var rules = [
             "zerohedge.com",
             "zeronet.io",
             "zhangtianliang.com",
+            "zhangzhehan.net",
             "zhanlve.org",
             "zhengjian.org",
             "zhengwunet.org",
