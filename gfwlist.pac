@@ -3070,6 +3070,7 @@ var rules = [
             "shwchurch.org",
             "shwchurch3.com",
             "sidelinesnews.com",
+            "sider.ai",
             "signal.org",
             "silvergatebank.com",
             "simbolostwitter.com",
