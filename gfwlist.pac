@@ -2341,6 +2341,7 @@ var rules = [
             "mgoon.com",
             "mgstage.com",
             "mh4u.org",
+            "mhwindow.org",
             "mi.com",
             "microsoft.com",
             "microvpn.com",
