@@ -3829,6 +3829,7 @@ var rules = [
             "vansky.com",
             "vaticannews.va",
             "vatn.org",
+            "vava8.com",
             "vcf-online.org",
             "vcfbuilder.org",
             "veed.io",
